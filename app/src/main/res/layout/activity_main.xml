@@ -9,7 +9,6 @@
     android:id="@+id/linear"
     android:padding="20dp"
     tools:context=".MainActivity">
-
   <Button
       android:id="@+id/btn1"
       android:layout_width="wrap_content"
@@ -17,12 +16,10 @@
       android:layout_marginBottom="30dp"
       android:text="배경색 변경"
       />
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:text="버튼 변경"
-        />
-
+  <Button
+      android:id="@+id/btn2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="버튼 변경"
+      />
 </LinearLayout>
